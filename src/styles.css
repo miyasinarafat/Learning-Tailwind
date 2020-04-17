@@ -2,4 +2,36 @@
 
 @tailwind components;
 
+
+.btn {
+    @apply bg-purple-600 text-white font-bold px-4 py-2 rounded mr-1 mb-2;
+}
+
+.btn:hover {
+    @apply bg-purple-800;
+}
+
+.btn-pink {
+    @apply bg-pink-600;
+}
+.btn-pink:hover {
+    @apply bg-pink-800;
+}
+
+.btn-blue {
+    @apply bg-blue-600;
+}
+.btn-blue:hover {
+    @apply bg-blue-800;
+}
+
+.btn-pill {
+    @apply rounded-full;
+}
+
+.btn-square {
+    @apply rounded-none;
+}
+
+
 @tailwind utilities;
